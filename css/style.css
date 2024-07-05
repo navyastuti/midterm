@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-top: 7%;
+}
+
+nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 0 2em;
+  border-bottom: 3px solid black;
+}
+nav a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.25em;
+  font-family: Kurale;
+}
+nav img {
+  width: 20%;
+  float: left;
+  margin: 10px 0;
+}
+
+nav ul {
+  float: right;
+  margin-top: 3%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 1em;
+}
+.main-container {
+  max-width: 1440px;
+  padding: 2em 3em;
+  box-shadow: 10px 10px 5px #888888;
+  overflow: auto;
+}
+
+.main-container aside,
+.main-container main {
+  float: left;
+}
+
+main {
+  width: 100%;
+}
+
+main article img.hero {
+  width: 100%;
+}
+.blockGroup {
+  display: flex;
+  justify-content: space-between;
+}
+.blockGroup div {
+  width: 45%;
+  border: 2px solid rgb(31, 1, 131);
+  box-shadow: 10px 10px 10px 5px #28047bdf;
+  margin: 0 auto;
+}
+.blockGroup div img {
+  width: 100%;
+}
+
+article h1 {
+  font-size: 3em;
+  font-family: copperplate;
+  background-image: linear-gradient(
+    to right,
+    rgb(61, 8, 169),
+    rgb(234, 213, 255)
+  );
+  color: #ffffff;
+  padding: 3px;
+  text-align: center;
+}
+
+article h2 {
+  font-size: 2em;
+  font-family: monotype corsiva;
+  background: #ffffff;
+  color: #000;
+  padding: 3px;
+  text-align: center;
+}
+
+article h3 {
+  font-size: 2em;
+  letter-spacing: 2px;
+  font-family: kurale;
+  background: #ffffff;
+  color: #000;
+  padding: 3px;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto 0 auto;
+}
+
+article p a {
+  display: block;
+  color: #ffffff;
+  font-family: kurale;
+  border: 1px solid rgb(31, 1, 131);
+  background-image: linear-gradient(
+    to right,
+    rgba(69, 8, 169, 0.839),
+    rgb(210, 191, 242)
+  );
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto 0 auto;
+}
+
+p {
+  font-size: 1.5em;
+  font-family: kurale;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+footer {
+  color: #fff;
+  background: #1b0056;
+  padding: 3px;
+  text-align: center;
+}
